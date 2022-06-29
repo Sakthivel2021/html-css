@@ -1,47 +1,39 @@
 <!DOCTYPE html>
  <html>
  <head>
- <title>sakthi profile</title>
-	 
-	 <link rel='stylesheet' href='/home/sakthi/Desktop/q.css'>
+
  </head>
  <body>
-     <div class='hero'>
-		 <h2 class='name'>sakthi<span>vel</span></h2>
-         <nav>
-         <ul>
-             <li><a href='#'>home</a> </li>
-             <li><a href='# '>about me</a></li>
-             <li><a href='#'>skill</a></li>
-             <li><a href="#">cotect</a></li>
-               
-			 <li><a href='#' class='btn'>subscribe</a></li>
-       </ul>
-         
-      
-         </nav>
-    
-		<div class='content'>
-			<h5>helo my name is </h5>
-			<h2>sakthi<span>vel</span></h2>
-			<h4> i am web devoloper</h4>
-	
+	 <h2> calculator</h2>
+  <div class='calculator'>
+	 <form name='cal'>
+		 <input type='text' name='calsi'>
+		 <br><br>
+	     <input type='button' value='1' onclick="cal.calsi.value=cal.calsi.value+'1'">
+	     <input type='button' value='2' onclick="cal.calsi.value=cal.calsi.value+'2'">
+	     <input type='button' value='3' onclick="cal.calsi.value=cal.calsi.value+'3'">
+	     <input type='button' value='+' onclick="cal.calsi.value=cal.calsi.value+'+'">
+		  <br><br>
+	     <input type='button' value='4' onclick="cal.calsi.value=cal.calsi.value+'4'">
+	     <input type='button' value='5' onclick="cal.calsi.value=cal.calsi.value+'5'">
+	     <input type='button' value='6' onclick="cal.calsi.value=cal.calsi.value+'6'">
+	     <input type='button' value='-' onclick="cal.calsi.value=cal.calsi.value+'-'"> 
+		 <br><br>
+	     <input type='button' value='7' onclick="cal.calsi.value=cal.calsi.value+'7'">
+	     <input type='button' value='8' onclick="cal.calsi.value=cal.calsi.value+'8'">
+	     <input type='button' value='9' onclick="cal.calsi.value=cal.calsi.value+'9'">
+	     <input type='button' value='*' onclick="cal.calsi.value=cal.calsi.value+'*'">
+	 <br><br>
+	     <input type='button' value='0' onclick="cal.calsi.value=cal.calsi.value+'0'">
+	     <input type='button' value='/' onclick="cal.calsi.value=cal.calsi.value+'/'">
+	     <input type='button' value='.' onclick="cal.calsi.value=cal.calsi.value+'.'">
+	     <input type='button' value='=' onclick="cal.calsi.value=eval(cal.calsi.value)">
+		 <br><br>
+	     <input type='button' value='clear' onclick="cal.calsi.value=''">
+		 <input type='button' value='c' onclick="cal.calsi.value=cal.calsi.value.slice(2,-2)">
 		 
-		 <div class='subscribe'>
-		 <form>
-			 <input type='text' placeholder='enter your name'>
-			 <input class='z' type='submit'name='submit' value='lets start'>
-			 
-			 </form>
-		 </div>
-		 </div>
-
-	   </div>
-	 
-	 
-	 
-	 
-	 
-	 
+		 
+		 	 </form>
+	 </div>
 	 </body>
 </html>
